@@ -90,39 +90,16 @@ L["CFGPAGE_PROFILES"] = "設定檔"
 L["CFGPAGE_SECTIONS"] = "區段"
 L["CFGTXT_DELETECHAR"] = "選擇之後該角色的紀錄將會被刪除."
 L["CFGTXT_IGNOREDCHARS"] = "被忽略的角色將會完全被本元件排除在外. 不會顯示/記錄/計算該角色的所有貨幣."
-L["NAME_AF_ARAKKOA"] = "阿拉卡"
-L["NAME_AF_DRAENEI"] = "德萊尼"
-L["NAME_AF_DRAENOR_CLANS"] = "德拉諾氏族"
-L["NAME_AF_DWARF"] = "矮人"
-L["NAME_AF_FOSSIL"] = "化石"
-L["NAME_AF_MANTID"] = "螳螂人"
-L["NAME_AF_MOGU"] = "魔古"
-L["NAME_AF_NERUBIAN"] = "奈幽"
-L["NAME_AF_NIGHTELF"] = "夜精靈"
-L["NAME_AF_OGRE"] = "巨魔"
-L["NAME_AF_ORC"] = "獸人"
-L["NAME_AF_OTHER"] = "其他"
-L["NAME_AF_PANDAREN"] = "熊貓人"
-L["NAME_AF_TOLVIR"] = "托維爾"
-L["NAME_AF_TROLL"] = "食人妖"
-L["NAME_AF_VRYKULL"] = "維酷族"
 L["NAME_ANCIENT_MANA"] = "遠古魔力"
-L["NAME_APEXIS_CRYSTAL"] = "頂尖水晶"
 L["NAME_ARTIFACT_FRAGMENT"] = "文物碎片"
 L["NAME_BLACK_IRON_FRAGMENT"] = "黑鐵碎片"
 L["NAME_BLOODYCOIN"] = "血染硬幣"
 L["NAME_CHAMPIONSEAL"] = "勇士印記"
 L["NAME_CHEFSAWARD"] = "大廚獎勵"
 L["NAME_CONQUESTPOINTS"] = "征服點數"
---[[Translation missing --]]
---[[ L["NAME_CURIOUS_COINS"] = ""--]] 
 L["NAME_DALJCTOKEN"] = "達拉然珠寶匠徽章"
 L["NAME_DARKMOONPRIZETICKET"] = "暗月獎品券"
 L["NAME_DINGY_IRON_COINS"] = "髒鐵幣"
---[[Translation missing --]]
---[[ L["NAME_ECHOES_OF_BATTLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_ECHOES_OF_DOMINATION"] = ""--]] 
 L["NAME_ELDERCHARMOFGOODFORTUNE"] = "長者的好運護符"
 L["NAME_EPICUREANAWARD"] = "美食主義者的獎勵"
 L["NAME_ESSENCEDEATHWING"] = "死亡之翼精華"
@@ -131,20 +108,14 @@ L["NAME_HONORPOINTS"] = "榮譽點數"
 L["NAME_ILLJCTOKEN"] = "大宗師珠寶匠徽章"
 L["NAME_IRONPAWTOKEN"] = "鐵爪徽章"
 L["NAME_JUSTICEPOINTS"] = "正義點數"
---[[Translation missing --]]
---[[ L["NAME_LEGIONFALL_WAR_SUPPLIES"] = ""--]] 
 L["NAME_LESSERGOODFORTUNE"] = "次級好運護符"
 L["NAME_MARKOFTHEWORLDTREE"] = "世界之樹印記"
 L["NAME_MOGORUNEOFFATE"] = "魔古命運符文"
 L["NAME_MONEY"] = "金錢"
 L["NAME_MOTEDARKNESS"] = "黑暗微粒"
---[[Translation missing --]]
---[[ L["NAME_NETHERSHARD"] = ""--]] 
 L["NAME_NO"] = "否"
 L["NAME_OIL"] = "油料"
 L["NAME_ORDER_RESOURCES"] = "職業大廳資源"
---[[Translation missing --]]
---[[ L["NAME_SEAL_OF_BROKEN_FATE"] = ""--]] 
 L["NAME_SEAL_OF_INEVITABLE_FATE"] = "既定命運印記"
 L["NAME_SEAL_OF_TEMPERED_FATE"] = "淬鍊命運徽印"
 L["NAME_SECRETDRAENORALCHEMY"] = "德拉諾鍊金術奧秘"
@@ -152,22 +123,12 @@ L["NAME_SECRETDRAENORBLACKSMITHING"] = "德拉諾鍛造奧秘"
 L["NAME_SECRETDRAENORJEWELCRAFTING"] = "德拉諾珠寶學奧秘"
 L["NAME_SECRETDRAENORLEATHERWORKING"] = "德拉諾製皮奧秘"
 L["NAME_SECRETDRAENORTAILORING"] = "德拉諾裁縫奧秘"
---[[Translation missing --]]
---[[ L["NAME_SHADOWY_COINS"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SIGHTLESS_EYE"] = ""--]] 
 L["NAME_TIMELESSCOIN"] = "永恆硬幣"
 L["NAME_TIMEWARPED_BADGE"] = "時光扭曲徽章"
---[[Translation missing --]]
---[[ L["NAME_TIMEWORN_ARTIFACT"] = ""--]] 
 L["NAME_TOLBARADCOMMENDATION"] = "拖巴拉德表揚徽章"
 L["NAME_VALOR"] = "勇氣點數"
 L["NAME_VALORPOINTS"] = "勇氣點數"
---[[Translation missing --]]
---[[ L["NAME_VEILED_ARGUNITE"] = ""--]] 
 L["NAME_WARFORGEDSEAL"] = "戰鑄徽印"
---[[Translation missing --]]
---[[ L["NAME_WRITHING_ESSENCE"] = ""--]] 
 L["NAME_YES"] = "是"
 L["NAME_ZENJCTOKEN"] = "禪師珠寶匠徽章"
 

@@ -90,25 +90,6 @@ L["CFGPAGE_PROFILES"] = "Профили"
 L["CFGPAGE_SECTIONS"] = "Секции"
 L["CFGTXT_DELETECHAR"] = "Если персонаж удален, вся его история также будет удалена"
 L["CFGTXT_IGNOREDCHARS"] = "Игнорируемые персонажи никак не учитываются аддоном. Для них не ведется история, они не отображаются в подсказке и не участвуют ни в каких подсчетах."
-L["NAME_AF_ARAKKOA"] = "Араккоа"
-L["NAME_AF_DRAENEI"] = "Дренейский"
-L["NAME_AF_DRAENOR_CLANS"] = "Дренорские Кланы"
-L["NAME_AF_DWARF"] = "Дворфийский"
-L["NAME_AF_FOSSIL"] = "Окаменелость"
-L["NAME_AF_MANTID"] = "Богомолы"
-L["NAME_AF_MOGU"] = "Могу"
-L["NAME_AF_NERUBIAN"] = "Нерубский"
-L["NAME_AF_NIGHTELF"] = "Эльфийский"
-L["NAME_AF_OGRE"] = "Огры"
-L["NAME_AF_ORC"] = "Оркский"
-L["NAME_AF_OTHER"] = "Другое"
-L["NAME_AF_PANDAREN"] = "Пандарен"
-L["NAME_AF_TOLVIR"] = "Тол'вирский"
-L["NAME_AF_TROLL"] = "Тролльский"
-L["NAME_AF_VRYKULL"] = "Врайкульский"
-L["NAME_ANCIENT_MANA"] = "Древняя мана"
-L["NAME_APEXIS_CRYSTAL"] = "Апекситовый кристалл"
-L["NAME_ARTIFACT_FRAGMENT"] = "Фрагмент артефакта"
 L["NAME_BLACK_IRON_FRAGMENT"] = "Кусок Темного Железа"
 L["NAME_BLOODYCOIN"] = "Окровавленная монета"
 L["NAME_CHAMPIONSEAL"] = "Печать чемпиона"
@@ -134,47 +115,11 @@ L["NAME_MARKOFTHEWORLDTREE"] = "Знак Древа Жизни"
 L["NAME_MOGORUNEOFFATE"] = "Руна судьбы могу"
 L["NAME_MONEY"] = "Деньги"
 L["NAME_MOTEDARKNESS"] = "Частица тьмы"
---[[Translation missing --]]
---[[ L["NAME_NETHERSHARD"] = ""--]] 
 L["NAME_NO"] = "Нет"
---[[Translation missing --]]
---[[ L["NAME_OIL"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_ORDER_RESOURCES"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SEAL_OF_BROKEN_FATE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SEAL_OF_INEVITABLE_FATE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SEAL_OF_TEMPERED_FATE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SECRETDRAENORALCHEMY"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SECRETDRAENORBLACKSMITHING"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SECRETDRAENORJEWELCRAFTING"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SECRETDRAENORLEATHERWORKING"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SECRETDRAENORTAILORING"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SHADOWY_COINS"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SIGHTLESS_EYE"] = ""--]] 
 L["NAME_TIMELESSCOIN"] = "Вневременная монета"
---[[Translation missing --]]
---[[ L["NAME_TIMEWARPED_BADGE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_TIMEWORN_ARTIFACT"] = ""--]] 
 L["NAME_TOLBARADCOMMENDATION"] = "Рекомендательный значок Тол Барада"
---[[Translation missing --]]
---[[ L["NAME_VALOR"] = ""--]] 
 L["NAME_VALORPOINTS"] = "Очки доблести"
---[[Translation missing --]]
---[[ L["NAME_VEILED_ARGUNITE"] = ""--]] 
 L["NAME_WARFORGEDSEAL"] = "Закаленная в бою печать"
---[[Translation missing --]]
---[[ L["NAME_WRITHING_ESSENCE"] = ""--]] 
 L["NAME_YES"] = "Да"
 L["NAME_ZENJCTOKEN"] = "Жетон дзен-ювелира"
 

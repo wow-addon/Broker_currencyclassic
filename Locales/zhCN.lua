@@ -90,40 +90,15 @@ L["CFGPAGE_PROFILES"] = "配置"
 L["CFGPAGE_SECTIONS"] = "数据段"
 L["CFGTXT_DELETECHAR"] = "删除一个角色后，角色所有的历史数据都将被移除。"
 L["CFGTXT_IGNOREDCHARS"] = "被忽略的角色将会被完全排除在本插件之外。这些角色无历史数据，不会显示在鼠标提示中，也不会包含在任何统计计算内。"
-L["NAME_AF_ARAKKOA"] = "鸦人"
-L["NAME_AF_DRAENEI"] = "德莱尼"
-L["NAME_AF_DRAENOR_CLANS"] = "德拉诺氏族"
-L["NAME_AF_DWARF"] = "矮人"
-L["NAME_AF_FOSSIL"] = "化石"
-L["NAME_AF_MANTID"] = "螳螂妖"
-L["NAME_AF_MOGU"] = "魔古"
-L["NAME_AF_NERUBIAN"] = "蛛魔"
-L["NAME_AF_NIGHTELF"] = "暗夜精灵"
-L["NAME_AF_OGRE"] = "食人魔"
-L["NAME_AF_ORC"] = "兽人"
-L["NAME_AF_OTHER"] = "其他"
-L["NAME_AF_PANDAREN"] = "熊猫人"
-L["NAME_AF_TOLVIR"] = "托维尔"
-L["NAME_AF_TROLL"] = "巨魔"
-L["NAME_AF_VRYKULL"] = "维库人"
---[[Translation missing --]]
---[[ L["NAME_ANCIENT_MANA"] = ""--]] 
-L["NAME_APEXIS_CRYSTAL"] = "埃匹希斯水晶"
 L["NAME_ARTIFACT_FRAGMENT"] = "神器碎片"
 L["NAME_BLACK_IRON_FRAGMENT"] = "黑铁碎片"
 L["NAME_BLOODYCOIN"] = "染血铸币"
 L["NAME_CHAMPIONSEAL"] = "冠军的徽记"
 L["NAME_CHEFSAWARD"] = "大厨的奖牌"
 L["NAME_CONQUESTPOINTS"] = "征服点数"
---[[Translation missing --]]
---[[ L["NAME_CURIOUS_COINS"] = ""--]] 
 L["NAME_DALJCTOKEN"] = "达拉然珠宝匠硬币"
 L["NAME_DARKMOONPRIZETICKET"] = "暗月奖券"
 L["NAME_DINGY_IRON_COINS"] = "肮脏的铁币"
---[[Translation missing --]]
---[[ L["NAME_ECHOES_OF_BATTLE"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_ECHOES_OF_DOMINATION"] = ""--]] 
 L["NAME_ELDERCHARMOFGOODFORTUNE"] = "长者的好运符"
 L["NAME_EPICUREANAWARD"] = "美食家奖章"
 L["NAME_ESSENCEDEATHWING"] = "死亡之翼的堕落精华"
@@ -132,21 +107,13 @@ L["NAME_HONORPOINTS"] = "荣誉点数"
 L["NAME_ILLJCTOKEN"] = "珠宝名匠的荣誉奖章"
 L["NAME_IRONPAWTOKEN"] = "铁掌徽记"
 L["NAME_JUSTICEPOINTS"] = "正义点数"
---[[Translation missing --]]
---[[ L["NAME_LEGIONFALL_WAR_SUPPLIES"] = ""--]] 
 L["NAME_LESSERGOODFORTUNE"] = "次级好运护符"
 L["NAME_MARKOFTHEWORLDTREE"] = "世界之树的印记"
 L["NAME_MOGORUNEOFFATE"] = "魔古命运符文"
 L["NAME_MONEY"] = "金币"
 L["NAME_MOTEDARKNESS"] = "暗月奖券"
---[[Translation missing --]]
---[[ L["NAME_NETHERSHARD"] = ""--]] 
 L["NAME_NO"] = "否"
 L["NAME_OIL"] = "原油"
---[[Translation missing --]]
---[[ L["NAME_ORDER_RESOURCES"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SEAL_OF_BROKEN_FATE"] = ""--]] 
 L["NAME_SEAL_OF_INEVITABLE_FATE"] = "既定命运印记"
 L["NAME_SEAL_OF_TEMPERED_FATE"] = "钢化命运印记"
 L["NAME_SECRETDRAENORALCHEMY"] = "德拉诺炼金秘术"
@@ -154,23 +121,10 @@ L["NAME_SECRETDRAENORBLACKSMITHING"] = "德拉诺锻造秘术"
 L["NAME_SECRETDRAENORJEWELCRAFTING"] = "德拉诺珠宝加工秘术"
 L["NAME_SECRETDRAENORLEATHERWORKING"] = "德拉诺制皮秘术"
 L["NAME_SECRETDRAENORTAILORING"] = "德拉诺裁缝秘术"
---[[Translation missing --]]
---[[ L["NAME_SHADOWY_COINS"] = ""--]] 
---[[Translation missing --]]
---[[ L["NAME_SIGHTLESS_EYE"] = ""--]] 
 L["NAME_TIMELESSCOIN"] = "永恒铸币"
 L["NAME_TIMEWARPED_BADGE"] = "时空扭曲徽章"
---[[Translation missing --]]
---[[ L["NAME_TIMEWORN_ARTIFACT"] = ""--]] 
 L["NAME_TOLBARADCOMMENDATION"] = "托尔巴拉德奖章"
---[[Translation missing --]]
---[[ L["NAME_VALOR"] = ""--]] 
 L["NAME_VALORPOINTS"] = "勇气点数"
---[[Translation missing --]]
---[[ L["NAME_VEILED_ARGUNITE"] = ""--]] 
 L["NAME_WARFORGEDSEAL"] = "战火徽记"
---[[Translation missing --]]
---[[ L["NAME_WRITHING_ESSENCE"] = ""--]] 
 L["NAME_YES"] = "是"
 L["NAME_ZENJCTOKEN"] = "珠宝禅师的奖章"
-
