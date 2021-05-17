@@ -40,41 +40,7 @@ local currencies = {
     ["pvp"] = {
     }
   },
-  ["legacy"] = {
-    ["pve"] = {
-    },
-    ["pvp"] = {
-    }
-  },
-  -- ["archaeology"] = {
-  --   -- Archaeology Fragments
-  --   [384] = {["type"] = TYPE_FRAGMENT, ["index"] = 1, ["name"] = L["NAME_AF_DWARF"]},
-  --   [385] = {["type"] = TYPE_FRAGMENT, ["index"] = 8, ["name"] = L["NAME_AF_TROLL"]},
-  --   [393] = {["type"] = TYPE_FRAGMENT, ["index"] = 3, ["name"] = L["NAME_AF_FOSSIL"]},
-  --   [394] = {["type"] = TYPE_FRAGMENT, ["index"] = 4, ["name"] = L["NAME_AF_NIGHTELF"]},
-  --   [397] = {["type"] = TYPE_FRAGMENT, ["index"] = 6, ["name"] = L["NAME_AF_ORC"]},
-  --   [398] = {["type"] = TYPE_FRAGMENT, ["index"] = 2, ["name"] = L["NAME_AF_DRAENEI"]},
-  --   [399] = {["type"] = TYPE_FRAGMENT, ["index"] = 9, ["name"] = L["NAME_AF_VRYKULL"]},
-  --   [400] = {["type"] = TYPE_FRAGMENT, ["index"] = 5, ["name"] = L["NAME_AF_NERUBIAN"]},
-  --   [401] = {["type"] = TYPE_FRAGMENT, ["index"] = 7, ["name"] = L["NAME_AF_TOLVIR"]},
-  --   [676] = {["type"] = TYPE_FRAGMENT, ["index"] = 11, ["name"] = L["NAME_AF_PANDAREN"]},
-  --   [677] = {["type"] = TYPE_FRAGMENT, ["index"] = 12, ["name"] = L["NAME_AF_MOGU"]},
-  --   [754] = {["type"] = TYPE_FRAGMENT, ["index"] = 10, ["name"] = L["NAME_AF_MANTID"]}, -- MoP 5.2 Mantid Archaeology Fragment
-  --   [821] = {["type"] = TYPE_FRAGMENT, ["index"] = 13, ["name"] = L["NAME_AF_DRAENOR_CLANS"]}, -- WoD Draenor Clans Archaeology Fragment
-  --   [828] = {["type"] = TYPE_FRAGMENT, ["index"] = 14, ["name"] = L["NAME_AF_OGRE"]}, -- WoD Ogre Archaeology Fragment
-  --   [829] = {["type"] = TYPE_FRAGMENT, ["index"] = 15, ["name"] = L["NAME_AF_ARAKKOA"]}, -- WoD Arakkoa Archaeology Fragment
-  -- },
   ["profession"] = {
-    -- [61]  = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_DALJCTOKEN"]},
-    -- [81]  = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_EPICUREANAWARD"]},
-    -- [361] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_ILLJCTOKEN"]},
-    -- [402] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_IRONPAWTOKEN"]},
-    -- [698] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_ZENJCTOKEN"]},                   -- MoP jewelcrafting
-    -- [910] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_SECRETDRAENORALCHEMY"]},         -- WoD alchemy
-    -- [999] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_SECRETDRAENORTAILORING"]},       -- WoD tailoring
-    -- [1008] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_SECRETDRAENORJEWELCRAFTING"]},  -- WoD jewelcrafting
-    -- [1017] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_SECRETDRAENORLEATHERWORKING"]}, -- WoD leatherworking
-    -- [1020] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_SECRETDRAENORBLACKSMITHING"]},  -- WoD blacksmithing
   },
   ["events"] = {
     [515] = {["type"] = TYPE_CURRENCY, ["name"] = L["NAME_DARKMOONPRIZETICKET"]},
@@ -87,15 +53,11 @@ local build = select(4, GetBuildInfo)
 
 local tracking = {
   ["gold"] = {["type"] = TYPE_MONEY, ["name"] = L["NAME_MONEY"], ["icon"] = "Interface\\Minimap\\Tracking\\Auctioneer"},
-
-  [0]   = {["type"] = TYPE_FRAGMENT, ["index"] = 16, ["name"] = L["NAME_AF_OTHER"]},
 }
 
 -- Add currencies back into the tracking table (this is easier than re-writing all occurences of tracking)
 for k,v in pairs(currencies["current"]["pve"]) do tracking[k] = v end
 for k,v in pairs(currencies["current"]["pvp"]) do tracking[k] = v end
-for k,v in pairs(currencies["legacy"]["pve"]) do tracking[k] = v end
-for k,v in pairs(currencies["legacy"]["pvp"]) do tracking[k] = v end
 for k,v in pairs(currencies["events"]) do tracking[k] = v end
 for k,v in pairs(currencies["profession"]) do tracking[k] = v end
 -- for k,v in pairs(currencies["archaeology"]) do tracking[k] = v end
@@ -968,33 +930,16 @@ function Currencyflow:OptionsColumns()
   -- into sections (PvE, PvP, Fragments, etc.). So we do this the hacky way.
 
   -- Current Expansion PVE --
-  currencyColumns["header2"] = {name = "Shadowlands PvE", type = "header", order = 200}
+  currencyColumns["header2"] = {name = "TBC PvE", type = "header", order = 200}
   order = 201
   for k,v in pairs(currencies["current"]["pve"]) do
     addColumn(k)
   end
 
   -- Current Expansion PVP
-  currencyColumns["header3"] = {name = "Shadowlands PvP", type = "header", order = 300}
+  currencyColumns["header3"] = {name = "TBC PvP", type = "header", order = 300}
   order = 301
   for k,v in pairs(currencies["current"]["pvp"]) do
-    addColumn(k)
-  end
-
-  -- Legacy --
-  currencyColumns["header4"] = {name = "Legacy", type = "header", order = 400}
-  order = 401
-  for k,v in pairs(currencies["legacy"]["pve"]) do
-    addColumn(k)
-  end
-  for k,v in pairs(currencies["legacy"]["pvp"]) do
-    addColumn(k)
-  end
-
-  -- Profession --
-  currencyColumns["header6"] = {name = "Profession", type = "header", order = 700}
-  order = 701
-  for k,v in pairs(currencies["profession"]) do
     addColumn(k)
   end
 
