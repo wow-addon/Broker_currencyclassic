@@ -1,0 +1,12 @@
+tag 7480f39b2d59a3ca5f5afa4e1a76c8880996e9f1 v1.8.4
+Author:	davidcraig <davidcraig1986@gmail.com>
+Date:	Wed Nov 18 09:14:25 2020 +0000
+
+v1.8.4
+
+commit f3a279ed5ee88e1b55322441fc42ed2a88e6930f
+Author: davidcraig <davidcraig1986@gmail.com>
+Date:   Wed Nov 18 09:14:06 2020 +0000
+
+    Toc for 9.0.2
+
